@@ -1,0 +1,11 @@
+[package]
+name = "png-to-32bpp-rgba"
+description = "Converts a PNG image into 32bpp RGBA data for use in Winit::window::Icon"
+version = "0.1.0"
+authors = ["ylsun <y15un@y15un.dog>"]
+edition = "2018"
+license = "MIT"
+
+[dependencies]
+getopts = { version = "0.2" } # MIT
+png = { version = "0.16" } # MIT
